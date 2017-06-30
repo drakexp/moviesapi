@@ -18,6 +18,8 @@ Django, Python 3 and modules in requirements.txt
 
 ### Installing and Deploying
 
+To begin you must first get an API key from http://www.omdbapi.com/ by becoming a patron for pledging a dollar. After you've acquired the key place it in movies/views.py where apikey is the variable.
+Second, you must set up a database and put its information in moviesapi/settings.py DATABASES configuration.
 Install Python and run manage.py runserver on your command line interpreter.
 You can also deploy this app directly to Heroku.
 
