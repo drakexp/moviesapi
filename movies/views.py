@@ -5,7 +5,7 @@ from django.http import HttpResponse, JsonResponse
 from django.core import serializers
 import requests, json
 
-apikey = "e99e474e"
+apikey = ""
 omdbendpoint = "http://www.omdbapi.com/?"
 
 class MoviesView(View):
