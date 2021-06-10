@@ -8,6 +8,6 @@ pipreqs==0.4.7
 requests==2.18.1
 urllib3==1.21.1
 yarg==0.1.9
-Django==1.9.1
+Django==2.2.24
 whitenoise==3.3.0
 psycopg2
